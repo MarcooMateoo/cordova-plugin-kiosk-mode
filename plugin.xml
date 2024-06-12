@@ -26,15 +26,7 @@
             </feature>
         </config-file>
 
-        <edit-config
-            file="AndroidManifest.xml"
-            target="/manifest/application/activity"
-            mode="merge"
-        >
-            <activity
-                android:keepScreenOn="true"
-            ></activity>
-        </edit-config>
+
 
         <config-file
             target="AndroidManifest.xml"
