@@ -28,7 +28,7 @@
 
         <edit-config
             file="AndroidManifest.xml"
-            target="/manifest/application/activity[@android:label='@string/activity_name']"
+            target="/manifest/application/activity"
             mode="merge"
         >
             <activity
