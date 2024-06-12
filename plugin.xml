@@ -29,7 +29,7 @@
         <edit-config
             file="AndroidManifest.xml"
             target="/manifest/application/activity"
-            mode="merge"
+            mode="overwrite"
         >
             <activity
                 android:name="com.outsystemscloud.sebgdev.KioskModePlugin.MainActivity"
