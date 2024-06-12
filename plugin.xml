@@ -29,12 +29,10 @@
         <edit-config
             file="AndroidManifest.xml"
             target="/manifest/application/activity"
-            mode="overwrite"
+            mode="merge"
         >
             <activity
-                android:name="com.outsystemscloud.sebgdev.KioskModePlugin.MainActivity"
                 android:keepScreenOn="true"
-                android:theme="@style/Theme.App.SplashScreen"
             ></activity>
         </edit-config>
 
