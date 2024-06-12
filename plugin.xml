@@ -40,7 +40,7 @@
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <receiver android:name="de.amicaldo.cordova.plugin.MyPackageReplacedEventReceiver">
+            <receiver android:exported="true" android:name="de.amicaldo.cordova.plugin.MyPackageReplacedEventReceiver">
                 <intent-filter>
                     <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
                 </intent-filter>
